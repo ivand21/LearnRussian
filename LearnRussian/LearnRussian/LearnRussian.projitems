@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>353957f8-ea97-4811-98de-f24161507d57</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>LearnRussian</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\AboutPageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\CheckAnswerPopupController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\HelpPageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\LearningLetterPopupController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\MainPageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\OptionsPageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\SummaryPageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\AlphabetType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Score.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\AboutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\CheckAnswerPopup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\HelpPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LearningLetterPopup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\OptionsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\SummaryPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\TestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\LearningPageController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Alphabet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\LearningPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Styles.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Controllers\TestPageController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
