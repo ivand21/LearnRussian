@@ -44,7 +44,6 @@ E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\obj\Deb
 E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\obj\Debug\LearnRussian.Android.csprojResolveAssemblyReference.cache
-E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\obj\Debug\res\drawable\hamilton.png
 E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\bin\Debug\Rg.Plugins.Popup.dll
 E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\bin\Debug\Rg.Plugins.Popup.Droid.dll
 E:\Projekty Visual Studio\LearnRussian\LearnRussian\LearnRussian.Android\bin\Debug\Rg.Plugins.Popup.Platform.dll

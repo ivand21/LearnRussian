@@ -156,9 +156,6 @@
     <BundleResource Include="Resources\icon_swap.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\hamilton.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\ok-icon.png" />
   </ItemGroup>
   <ItemGroup>

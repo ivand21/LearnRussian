@@ -23,11 +23,11 @@ namespace LearnRussian.Controllers
             Random rnd = new Random();
             if (Settings.QuestionAlphabet == AlphabetType.Russian)
             {
-                return Alphabet.Cyryllic[rnd.Next(Alphabet.Cyryllic.Length) - 1];
+                return Alphabet.Cyryllic[rnd.Next(Alphabet.Cyryllic.Length)];
             }
             else
             {
-                return Alphabet.Phonetic[rnd.Next(Alphabet.Phonetic.Length) - 1];
+                return Alphabet.Phonetic[rnd.Next(Alphabet.Phonetic.Length)];
             }
         }
 
@@ -46,8 +46,10 @@ namespace LearnRussian.Controllers
                 index = Array.IndexOf(Alphabet.Phonetic, _page.Question.Text);
                 letter = Alphabet.Cyryllic[index];
             }
-            await PopupNavigation.PushAsync(new CheckAnswerPopup(letter, this));
-           
+
+            var popup = new CheckAnswerPopup(letter, this);
+            await PopupNavigation.PushAsync(popup);
+
             _page.Question.Text = RandomLetter();
         }
 

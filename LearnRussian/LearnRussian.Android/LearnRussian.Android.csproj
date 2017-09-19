@@ -147,9 +147,6 @@
     <AndroidResource Include="Resources\Drawable\icon_swap.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\Drawable\hamilton.png" />
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\Drawable\ok_icon.png" />
   </ItemGroup>
   <ItemGroup>

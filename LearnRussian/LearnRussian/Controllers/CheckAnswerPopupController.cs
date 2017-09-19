@@ -20,14 +20,20 @@ namespace LearnRussian.Controllers
 
         public async void OnGoodAnswerButtonClicked(object sender, EventArgs e)
         {
-            ParentController.Score.GoodAnswers++;
-            await _page.Navigation.PopPopupAsync();
+            if (PopupNavigation.PopupStack.Count > 0)
+            {
+                ParentController.Score.GoodAnswers++;
+                await _page.Navigation.PopPopupAsync();
+            }
         }
 
         public async void OnWrongAnswerButtonClicked(object sender, EventArgs e)
         {
-            ParentController.Score.WrongAnswers++;
-            await _page.Navigation.PopPopupAsync();
+            if (PopupNavigation.PopupStack.Count > 0)
+            {
+                ParentController.Score.WrongAnswers++;
+                await _page.Navigation.PopPopupAsync();
+            }
         }
     }
 }
